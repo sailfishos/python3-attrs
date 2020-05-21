@@ -27,5 +27,5 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{python3_sitearch}/attr
-%{python3_sitearch}/attrs-*.egg-info
+%{python3_sitelib}/attr
+%{python3_sitelib}/attrs-*.egg-info
