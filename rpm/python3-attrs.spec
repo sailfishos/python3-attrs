@@ -2,7 +2,7 @@ Name:       python3-attrs
 Summary:    Classes Without Boilerplate
 Version:    19.3.0
 Release:    1
-License:    MIT or ASL 2.0
+License:    MIT
 URL:        https://pypi.org/project/attrs/
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.bz2
@@ -27,5 +27,6 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
+%license LICENSE
 %{python3_sitelib}/attr
 %{python3_sitelib}/attrs-*.egg-info
