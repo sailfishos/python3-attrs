@@ -1,3 +1,3 @@
 [submodule "attrs"]
 	path = attrs
-	url = https://git.sailfishos.org/mirror/attrs.git
+	url = https://github.com/sailfishos-mirror/attrs.git
